@@ -1,0 +1,37 @@
+.section-1 {
+  margin-top: 100px;
+  text-align: center;
+  p {
+    padding: 0 20%;
+    margin-top: 20px;
+  }
+}
+.section-2 {
+  h2{
+    color: white;
+  }
+  padding: 50px 0;
+  background: #1B3C59;
+  label {
+    display: block;
+    color: white;
+    margin-top: 50px;
+  }
+  input {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  button {
+    margin-top: 20px;
+    border: 0;
+    background: orange;
+    color: white;
+  }
+}
