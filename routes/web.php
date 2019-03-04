@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/iscriviti', 'AdmissionController@index')->name('admission.index');
 Route::post('/iscriviti', 'AdmissionController@save')->name('admission.save');

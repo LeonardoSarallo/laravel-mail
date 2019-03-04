@@ -14,7 +14,7 @@
         <div class="header-right">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="{{route('home')}}">Home</a>
               <div class="border">
 
               </div>
