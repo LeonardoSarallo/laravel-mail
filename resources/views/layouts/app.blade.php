@@ -6,7 +6,49 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   </head>
   <body>
-    <div class="container">
+    <header>
+  <div class="container">
+    <div class="header-left">
+      <img src="{{ asset('img/logo.png')}}" alt="">
+    </div>
+    <div class="header-right">
+      <ul>
+        <li>
+          <a href="">Home</a>
+          <div class="border">
+
+          </div>
+        </li>
+        <li>
+          <a href="#">Corso</a>
+        </li>
+        <li>
+          <a href="#">Metodo</a>
+        </li>
+
+        <li>
+          <a href="">Studenti</a>
+        </li>
+        <li>
+          <a class="button" href="{{ route('admission.index')}}">Iscriviti</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+    {{-- <div class="container">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -18,14 +60,14 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="{{ route ('admission.index')}}">Iscriviti</a>
+              <a class="nav-link" href="{{ route('admission.index')}}">Iscriviti</a>
             </li>
 
           </ul>
 
         </div>
       </nav>
-    </div>
+    </div> --}}
     @yield('content')
 
   </body>
